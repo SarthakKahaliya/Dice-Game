@@ -10,6 +10,62 @@
 
 }
 
+.btn{
+  margin-top: 50px;
+  padding: 20px 50px;
+  font-family: 'Lobster', cursive;
+  background-color: #4ECCA3;
+  font-size: 2rem;
+  color: #393E46;
+  border-radius: 10px;
+}
+
+.p1, .p2{
+  color:#4ECCA3;
+  text-align: left;
+  position: relative;
+  margin-left: 0%;
+}
+
+.dashed{
+  border: white dashed 0.5px;
+  transform: scale(5);
+  
+  overflow: hidden;
+  width: 19.8%;
+
+  
+}
+
+.track-container{
+  display: flex;
+}
+
+.start{
+  transform: rotate(-90deg);
+  height: 20px;
+  padding: 0 15px;
+  margin-top: 18px;
+  margin-right: -20px;
+  background-color: black;
+  color: white;
+}
+
+.finish{
+  transform: rotate(-90deg);
+  height: 20px;
+  padding: 28px 10px 10px;
+  background-color: black;
+  position: relative;
+  z-index: -1;
+  color: white;
+}
+
+.track{
+  border: 2px solid white;
+  width: 100%;
+}
+
 body {
   background-color: #393E46;
 }
