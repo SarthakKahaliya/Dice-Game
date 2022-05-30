@@ -25,7 +25,7 @@ function run() {
   }
 
 
-  if ((p1 > 101) & (p2 > 101)) {
+  if ((p1 > 99) & (p2 > 99)) {
     document.querySelector("h1").innerHTML = "Race is Draw";
     p1 = 101;
     p2 = 101;
@@ -36,7 +36,7 @@ function run() {
       .querySelector(".p2")
       .setAttribute("style", "margin-left: " + p2 + "%");
     complete = 1;
-  } else if (p1 > 101) {
+  } else if (p1 > 99) {
     document.querySelector("h1").innerHTML = "🚩 Player 1 Wins";
     p1 = 101;
     document
@@ -46,7 +46,7 @@ function run() {
       .querySelector(".p2")
       .setAttribute("style", "margin-left: " + p2 + "%");
     complete = 1;
-  } else if (p2 > 101) {
+  } else if (p2 > 99) {
     document.querySelector("h1").innerHTML = "Player 2 Wins 🚩";
     p2 = 101;
     document
